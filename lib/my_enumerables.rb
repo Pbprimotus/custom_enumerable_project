@@ -129,6 +129,7 @@ module Enumerable
     my_each { |el| init = (yield init, el) }
     init
   end
+<<<<<<< HEAD
 
   def bottles(n)
     if n <= 0
@@ -150,6 +151,8 @@ module Enumerable
   end
     
       
+=======
+>>>>>>> a5859ca80b1109fab540e22c78abe43e97147759
 end
 
 # You will first have to define my_each
